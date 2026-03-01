@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD'𝙺𝚒𝚝𝚊𝚗𝚊→ᰔᩚ | Historias FF Girls</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(180deg, #07010a, #15031a);
+            text-align: center;
+            color: white;
+            padding: 30px 15px;
+        }
+
+        .foto img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 8px 30px rgba(255,77,166,0.4);
+        }
+
+        .nombre {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin-top: 15px;
+            color: #ff4da6;
+        }
+
+        .cuadro {
+            background-color: #ff88c6;
+            border: 3px solid #ff4da6;
+            padding: 20px;
+            margin: 25px auto;
+            max-width: 650px;
+            border-radius: 15px;
+            color: #2b002b;
+            font-weight: 600;
+        }
+
+        .boton {
+            background: linear-gradient(90deg,#ff4da6,#ff88c6);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 40px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        #formulario {
+            display: none;
+            margin-top: 30px;
+        }
+
+        #formulario iframe {
+            width: 100%;
+            height: 820px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .final {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #ffb3da;
+            font-weight: bold;
+        }
+
+        .redes {
+            margin-top: 20px;
+        }
+
+        .redes a img {
+            width: 45px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .redes a img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- FOTO -->
+    <div class="foto">
+        <img src="https://i.ibb.co/5X6tGHJK/imagen.png" alt="Foto de perfil">
+    </div>
+
+    <!-- NOMBRE -->
+    <div class="nombre">
+        RD'𝙺𝚒𝚝𝚊𝚗𝚊→ᰔᩚ
+    </div>
+
+    <!-- CUADRO 1 -->
+    <div class="cuadro">
+        Esta web fue creada para que niñas de Free Fire puedan contar sus historias.
+    </div>
+
+    <!-- CUADRO 2 -->
+    <div class="cuadro">
+        Por favor, trata de tener los menores errores posibles.
+    </div>
+
+    <!-- BOTÓN -->
+    <button class="boton" onclick="mostrarFormulario()">
+        💬 Cuéntame tu historia
+    </button>
+
+    <!-- FORMULARIO -->
+    <div id="formulario">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe95896qxAZD16AE_n3Iy87526Cd8q3U-aQKX4jh6_fx9c0GQ/viewform?embedded=true"></iframe>
+
+        <div class="final">
+            Creado con amor por FFGears
+        </div>
+
+        <!-- REDES -->
+        <div class="redes">
+            <a href="https://youtube.com/@rdkitana?si=TlArAXkmdaitSlhx" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+            </a>
+
+            <a href="https://www.tiktok.com/@rdkitana?_r=1&_t=ZT-94J0Ma0akAA" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function mostrarFormulario() {
+            var form = document.getElementById("formulario");
+            if (form.style.display === "block") {
+                form.style.display = "none";
+            } else {
+                form.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
